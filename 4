@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Program4 {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+			int c=0, i;
+			boolean a[];
+			a=new boolean[4];
+				for (i=0; i<4; i++){
+					a[i]=in.nextBoolean();
+					if (a[i]==true)
+						c++;
+				}
+				if (c==2) 
+					System.out.print ("True");
+		in.close();
+	}
+}	
